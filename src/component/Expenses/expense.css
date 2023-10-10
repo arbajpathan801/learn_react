@@ -5,3 +5,8 @@
     width: 50rem;
     max-width: 95%;
 }
+.expense .Handler{
+    margin-left: 10px;
+    color: burlywood;
+    cursor: pointer;
+}

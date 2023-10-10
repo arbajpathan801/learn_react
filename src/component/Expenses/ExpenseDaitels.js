@@ -10,6 +10,7 @@ const ExpenseDaitels = (props) => {
                 <h2>{props.location}</h2>
             </div>
             <div className="expense-item__price">${props.amount}</div>
+            
         </>
     )
 }
