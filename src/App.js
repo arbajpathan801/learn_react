@@ -133,11 +133,16 @@ const App = () => {
   //     amount: 252
   //   }
   // ];
+ 
+  const AddexpenseHandler= expense => {
+    console.log ('inside app js')
+    console.log (expense)
+  }
 
   return (
     <div >
       <h1 >let's get started</h1>
-      <NewExpenses/>
+      <NewExpenses onAdd={AddexpenseHandler}/>
       {/* <Expenses items={initialexpenses} /> */}
     
         </div>
