@@ -138,16 +138,16 @@ const App = () => {
     console.log ('inside app js')
     console.log (expense)
     initialexpenses.push(expense)
-    // setEnteredExpense(expense)
     
     console.log(initialexpenses)
-  }
+  }// setEnteredExpense(expense)
+  
 
   return (
     <div >
       <h1 >let's get started</h1>
       <NewExpenses onAdd={AddexpenseHandler}/>
-      <Expenses items={initialexpenses} />
+      <Expenses items={initialexpenses}/>
 
         </div>
   );
