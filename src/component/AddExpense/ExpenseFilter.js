@@ -1,9 +1,10 @@
 import "./ExpenseFilter.css";
 import React from "react";
 
-const ExpenseFilter = (props,filterOnChange) => {
+const ExpenseFilter = (props) => {
   const dropDownchangeHandler = (event) => {
-    filterOnChange(event.target.value);
+    console.log(props);
+    props.onChangeFilter(event.target.value);
   };
   return (
     <div className="expenses-filter">
