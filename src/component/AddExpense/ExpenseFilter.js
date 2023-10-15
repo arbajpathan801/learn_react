@@ -3,7 +3,6 @@ import React from "react";
 
 const ExpenseFilter = (props) => {
   const dropDownchangeHandler = (event) => {
-    console.log(props);
     props.onChangeFilter(event.target.value);
   };
   return (
